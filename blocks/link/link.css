@@ -1,0 +1,112 @@
+.link {
+  position: relative;
+  margin-left: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: url(../../images/cursor.png), pointer;
+  transition: opacity .3s ease;
+  color: inherit;
+}
+
+.link:hover {
+  opacity: .6;
+}
+
+
+.link_surrounded {
+  padding: 12px 15px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+
+.link_surrounded_dark {
+  border-color: #1a1b22;
+}
+
+
+.link_selected::after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -29px;
+}
+
+.link_selected_dark::after {
+  background-color: #1a1b22;
+}
+
+
+.link_auth::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/logout-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 12px;
+}
+
+.link_auth_dark::after {
+  background-image: url(../../images/logout-black.png);
+}
+
+
+.link_git {
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/github.png);
+}
+
+.link_face {
+  margin: 0 0 0 25px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/facebook.png);
+}
+
+
+@media screen and (max-width: 1100px) {
+  .link {
+    margin-left: 16px;
+  }
+
+  .link_selected::after {
+    bottom: -21px;
+  }
+
+  .link_surrounded {
+    padding: 8px 12px;
+  }
+}
+
+/* Мобайл */
+@media screen and (max-width: 600px) {
+  .header .link {
+    margin: 40px 0 0;
+  }
+
+  .link_selected::after {
+    display: none;
+  }
+
+  .link_surrounded {
+    align-self: center;
+    padding: 16px 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .link_surrounded_dark {
+    border-color: #fff;
+  }
+
+  .link_auth_dark::after {
+    background-image: url(../../images/logout-white.png);
+  }
+}

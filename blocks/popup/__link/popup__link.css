@@ -1,0 +1,15 @@
+.popup__link {
+  margin: 16px 0 0;
+  color: #2f71e5;
+  cursor: url(../../../images/cursor.png), pointer;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.popup__link_success {
+  font-size: 18px;
+  line-height: 22px;
+}

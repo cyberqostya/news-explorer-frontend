@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Веб-страница для поиска и сохранения новостей">
+  <meta name="author" content="Константин Миков">
+  <title>NewsExplorer</title>
+  <link type="image/png" rel="shortcut icon" href="<%=htmlWebpackPlugin.files.publicPath%><%=require('../../images/favicon.png').default%>">
+</head>
+<body>
+
+  <header class="headfoot header header_dark">
+    <h2 class="header__title title">NewsExplorer</h2>
+
+    <nav class="header__links">
+      <a class="link text" href="../index.html">Главная</a>
+      <a class="link link_selected link_selected_dark text" href="./articles.html">Сохранённые статьи</a>
+      <a class="link link_surrounded link_surrounded_dark link_auth link_auth_dark text"></a>
+    </nav>
+
+    <div class="header__icon header__icon_dark"></div>
+  </header>
+
+  <section class="article-inf">
+    <p class="article-inf__subtitle text">Сохранённые статьи</p>
+    <h2 class="article-inf__title title"></h2>
+
+  </section>
+
+  <section class="results">
+    <div class="cards-container">
+
+    </div>
+  </section>
+
+  <footer class="headfoot footer">
+    <p class="footer__copyright minitext">&copy;2020 Supersite, Powered by News API</p>
+
+    <nav class="footer__links">
+      <a class="link text" href="../index.html">Главная</a>
+      <a class="link text" href="https://praktikum.yandex.ru/web/" target="_blank">Яндекс.Практикум</a>
+      <div class="footer__icons">
+        <a class="link link_git" href="https://github.com/antonkstin" target="_blank"></a>
+        <a class="link link_face" href="https://vk.com/na3po4" target="_blank"></a>
+      </div>
+    </nav>
+  </footer>
+
+  <!-- Бургер -->
+  <section class="burger-menu">
+    <header class="headfoot header">
+      <h2 class="header__title title">NewsExplorer</h2>
+
+      <nav class="header__links">
+        <a class="link text" href="../index.html">Главная</a>
+        <a class="link link_selected link_selected_dark text" href="./articles.html">Сохранённые статьи</a>
+        <a class="link link_surrounded link_surrounded_dark link_auth link_auth_dark text" href="../index.html">Грета</a>
+      </nav>
+
+      <div class="header__icon header__icon_close"></div>
+    </header>
+  </section>
+
+</body>
+</html>
+
+<!-- <%= htmlWebpackPlugin.files.js %>
+  <p><%= JSON.stringify(htmlWebpackPlugin, null, 2) %></p>
+-->

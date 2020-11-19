@@ -1,0 +1,18 @@
+.article-inf__text {
+  margin: 30px 0 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .article-inf__text {
+    margin: 16px 0 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .article-inf__text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

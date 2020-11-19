@@ -1,0 +1,9 @@
+.popup__field-title {
+  margin: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2f71e5;
+}

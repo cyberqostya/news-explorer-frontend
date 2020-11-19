@@ -1,0 +1,25 @@
+@import url(../vendor/fonts.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/minitext/minitext.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/headfoot/headfoot.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/search/search.css);
+@import url(../blocks/preload/preload.css);
+@import url(../blocks/not-found/not-found.css);
+@import url(../blocks/results/results.css);
+@import url(../blocks/about-author/about-author.css);
+@import url(../blocks/cards-container/cards-container.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/article-inf/article-inf.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/popup/popup.css);
+
+body {
+  margin: 0;
+  position: relative;
+  min-width: 320px;
+}

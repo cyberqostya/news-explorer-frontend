@@ -1,0 +1,18 @@
+.card__source {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #b6bcbf;
+}
+
+@media screen and (max-width: 1100px) {
+  .card__source {
+    left: 16px;
+    bottom: 16px;
+  }
+}

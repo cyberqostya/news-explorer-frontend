@@ -1,0 +1,16 @@
+@import url(./__bg/card__bg.css);
+@import url(./__btn/card__btn.css);
+@import url(./__trash/card__trash.css);
+@import url(./__about/card__about.css);
+@import url(./__date/card__date.css);
+@import url(./__title/card__title.css);
+@import url(./__text/card__text.css);
+@import url(./__source/card__source.css);
+@import url(./__message/card__message.css);
+
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: url(../../images/cursor.png), pointer;
+  text-decoration: none;
+}

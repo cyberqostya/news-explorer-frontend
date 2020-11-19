@@ -1,0 +1,10 @@
+.footer__copyright {
+  color: #b6bcbf;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    order: 2;
+    margin: 40px 0 20px;
+  }
+}

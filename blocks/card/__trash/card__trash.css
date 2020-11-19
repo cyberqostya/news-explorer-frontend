@@ -1,0 +1,10 @@
+.card__trash {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #b6bcbf;
+  transition: fill .3s ease;
+}
+
+.card__btn:hover .card__trash {
+  fill: #000;
+}

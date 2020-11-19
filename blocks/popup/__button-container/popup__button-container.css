@@ -1,0 +1,8 @@
+.popup__button-container {
+  position: relative;
+  width: 100%;
+  margin: 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

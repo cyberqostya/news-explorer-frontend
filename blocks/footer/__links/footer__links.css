@@ -1,0 +1,17 @@
+.footer__links {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__links {
+    width: 100%;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .footer__links .link.text {
+    margin: 0;
+  }
+}

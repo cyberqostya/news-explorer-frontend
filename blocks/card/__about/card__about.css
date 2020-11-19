@@ -1,0 +1,20 @@
+.card__about {
+  position: relative;
+  padding: 24px;
+  background-color: #fff;
+  height: 304px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1100px) {
+  .card__about {
+    padding: 16px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card__about {
+    height: 244px;
+  }
+}

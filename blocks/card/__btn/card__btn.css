@@ -1,0 +1,46 @@
+.card__btn {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image .3s;
+}
+
+.card__btn_flag {
+  background-image: url(../../../images/bookmark.png);
+}
+
+.card__btn_flag:hover {
+  background-image: url(../../../images/bookmark-hover.png);
+}
+
+.card__btn_flag-active {
+  background-image: url(../../../images/bookmark-active.png);
+}
+
+.card__btn_trash {
+  background-image: url(../../../images/trash.png);
+}
+
+.card__btn_flag-active:hover, .card__btn_trash:hover {
+  background-image: url(../../../images/trash-hover.png);
+}
+
+@media screen and (max-width: 1100px) {
+  .card__btn {
+    top: 8px;
+    right: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card__btn {
+    top: 16px;
+    right: 16px;
+  }
+}

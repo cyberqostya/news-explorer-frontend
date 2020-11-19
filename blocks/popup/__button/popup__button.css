@@ -1,0 +1,13 @@
+.popup__button {
+  margin: 0;
+  width: 100%;
+  height: 64px;
+  color: #fff;
+}
+
+.popup__button_blocked {
+  pointer-events: none;
+  background-color: #e6e8eb;
+  color: #b6bcbf;
+  box-shadow: none;
+}

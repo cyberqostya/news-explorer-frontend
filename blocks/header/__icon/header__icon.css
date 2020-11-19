@@ -1,0 +1,21 @@
+.header__icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/burger-white.png);
+  display: none;
+  background-size: cover;
+}
+
+.header__icon_dark {
+  background-image: url(../../../images/burger-black.png);
+}
+
+.header__icon_close {
+  background-image: url(../../../images/cross-white.png);
+}
+
+@media screen and (max-width: 600px) {
+  .header__icon {
+    display: block;
+  }
+}

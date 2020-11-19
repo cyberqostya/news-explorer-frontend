@@ -1,0 +1,10 @@
+@import url(./__circle/preload__circle.css);
+@import url(./__text/preload__text.css);
+
+.preload {
+  width: 280px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

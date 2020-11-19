@@ -1,0 +1,31 @@
+.header__links {
+  display: flex;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 700px) and (min-width: 601px) {
+  .header__links .link {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__links {
+    display: none;
+  }
+  .burger-menu .header__links {
+    display: block;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1a1b22;
+    width: 100%;
+    top: 56px;
+    left: 0;
+    padding: 0 16px 24px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+}

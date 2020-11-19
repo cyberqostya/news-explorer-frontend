@@ -1,0 +1,16 @@
+.about-author__text {
+  margin: 24px 0 0;
+  width: calc(100vw / 2.4);
+}
+
+@media screen and (max-width: 1250px) {
+  .about-author__text {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .about-author__text {
+    margin: 16px 0 0;
+  }
+}

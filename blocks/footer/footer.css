@@ -1,0 +1,15 @@
+@import url(./__copyright/footer__copyright.css);
+@import url(./__links/footer__links.css);
+@import url(./__icons/footer__icons.css);
+
+.footer {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 20px;
+    flex-direction: column;
+    height: auto;
+  }
+}
